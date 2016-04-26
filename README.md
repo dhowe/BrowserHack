@@ -1,2 +1,4 @@
 # BrowserHack
-Resources for the Browser Hacking Workshop, April 27, 2016
+Resources for the Browser Hacking Workshop
+School of Creative Media, Hong Kong
+April 27, 2016
