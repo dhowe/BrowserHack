@@ -1,0 +1,17 @@
+{
+  "manifest_version": 2,
+
+  "name": "Great Firewall Checker",
+  "description": "Check if a page is blocked in China",
+  "version": "2.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "activeTab",
+    "http://*/"
+  ]
+}
