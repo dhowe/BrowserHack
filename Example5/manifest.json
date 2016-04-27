@@ -1,9 +1,9 @@
 {
   "manifest_version": 2,
 
-  "name": "Content Script Test",
-  "description": "Check if a page has blockable content",
-  "version": "4.0",
+  "name": "Redaction Example",
+  "description": "Redact all text, everywhere",
+  "version": "5.0",
 
   "browser_action": {
     "default_icon": "icon.png",
@@ -11,11 +11,13 @@
   },
 
   "content_scripts": [{
-    "matches": [
-      "<all_urls>"
-    ],
+    "matches": [ "<all_urls>" ],
     "js": [ "jquery-2.2.3.js", "content.js" ]
   }],
+
+  "web_accessible_resources": [
+    "fonts/*"
+  ],
 
   "permissions": [
     "activeTab",
