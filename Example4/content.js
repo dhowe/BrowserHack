@@ -4,6 +4,4 @@
 
 var firstHref = $("a[href^='http']").attr("href");
 
-var body = $('body').text();
-
-console.log(body);
+console.log(firstHref);

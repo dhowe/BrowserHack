@@ -8,4 +8,7 @@ var fontFace = '@font-face { font-family: Redacted; src: url("' +
 $("<style>").prop("type", "text/css").html(fontFace).appendTo("head");
 
 // Apply our font-family to *every* element (in black)
-$("*").css('font-family', 'Redacted').css('color', '#000');
+$("*")
+  .css('font-family', 'Redacted')
+  .css('color', '#000')
+  .css('background', 'none');
